@@ -1,0 +1,36 @@
+; ===========================================================
+;  colours.cfg  - Walkman home-screen icon colours
+; ===========================================================
+;  This file is used by the firmware installer to overwrite
+;  the default colours settable via MrWalkman's firmware.
+;
+;  The four lines under these instructions define new colours
+;  to map to MrWalkman's COL= setting in
+;  '/contents/CFW/settings.txt'
+;      line 1  ->  COL=1  (Peach slot)
+;      line 2  ->  COL=2  (Red slot)
+;      line 3  ->  COL=3  (Blue slot)
+;      line 4  ->  COL=4  (Green slot)
+;  COL=0 is the untouched grey default and is NOT changed
+;  here.
+;
+;  Each line should specify a colour in #RRGGBB format. (case
+;  does not matter).  You must specify exactly 4 colours
+;  otherwise the update will fail.  Lines starting with ';'
+;  and blank lines are ignored.
+;
+;  The first time you run the firmware installer, this file
+;  will be created and a new set of colours will be
+;  configured:
+;      COL=1 becomes a Sony Walkman orange (#FF8922)
+;      COL=2 becomes a bright summery yellow (#FFE816)
+;      COL=3 becomes a vulgar pink (#FF5AE6)
+;      COL=4 becomes a toxic green (#97FF4D)
+;
+;  If you edit this file to set your own colours, you will
+;  need to re-run the installer.
+;
+#FF8922
+#FFE816
+#FF5AE6
+#97FF4D
