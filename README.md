@@ -5,4 +5,6 @@ Upon first installation, 4 new colours are available to replace the incipid ones
 
 This is only compatible with MrWalkman firmware and only tested on an NW-A55.  While there are safeguards to prevent damaging anything it is recommended to backup your device before using @unknown321's tool: https://github.com/unknown321/wbrt
 
-Thank you to @unknown321 to answered questions I had to achieve this.
+Installer build using @unknown321's nw-installer: https://github.com/unknown321/nw-installer
+
+Thank you to @unknown321 for answering questions I had and for creating a bunch of amazing tools and useful documentation.
